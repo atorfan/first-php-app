@@ -20,12 +20,14 @@
   },
   "autoload": {
     "psr-4": {
-      "CodelyTv\\": "src/"
+      "CodelyTv\\": "src/codelytv/",
+      "alecs\\kata\\calculator\\": "src/alecs/kata/calculator/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "CodelyTv\\Tests\\": "tests/"
+      "CodelyTv\\Tests\\": "tests/codelytv/",
+      "alecs\\kata\\calculator\\tests\\": "tests/alecs/kata/calculator/"
     }
   },
   "minimum-stability": "stable",
