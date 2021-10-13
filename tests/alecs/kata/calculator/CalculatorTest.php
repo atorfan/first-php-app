@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace alecs\kata\calculator\Tests;
+namespace alecs\kata\calculator\tests;
 
 use alecs\kata\calculator\Calculator;
 use InvalidArgumentException;
