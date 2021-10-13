@@ -2,9 +2,8 @@
 
 declare(strict_types=1);
 
-namespace alecs\kata\calculator\tests;
+namespace alecs\kata\calculator;
 
-use alecs\kata\calculator\Calculator;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 

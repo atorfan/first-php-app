@@ -20,14 +20,18 @@
   },
   "autoload": {
     "psr-4": {
-      "CodelyTv\\": "src/codelytv/",
-      "alecs\\kata\\calculator\\": "src/alecs/kata/calculator/"
+      "alecs\\kata\\calculator\\": "calculator-kata/src",
+      "alecs\\": [
+        "src"
+      ]
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "CodelyTv\\Tests\\": "tests/codelytv/",
-      "alecs\\kata\\calculator\\tests\\": "tests/alecs/kata/calculator/"
+      "alecs\\kata\\calculator\\": "calculator-kata/test",
+      "alecs\\": [
+        "test"
+      ]
     }
   },
   "minimum-stability": "stable",
@@ -40,7 +44,7 @@
     "fix-style": "phpcbf -p --standard=PSR2 src tests",
     "phpunit": "phpunit --configuration phpunit.xml",
     "test": [
-      "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+      "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src test",
       "phpunit --configuration phpunit.xml"
     ]
   }

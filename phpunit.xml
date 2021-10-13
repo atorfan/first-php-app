@@ -7,7 +7,7 @@
         beStrictAboutChangesToGlobalState="true">
     <testsuites>
         <testsuite name="phpBootstrap">
-            <directory>tests</directory>
+            <directory>test</directory>
         </testsuite>
     </testsuites>
 </phpunit>
